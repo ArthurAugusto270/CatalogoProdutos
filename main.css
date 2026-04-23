@@ -54,6 +54,10 @@ main {
     margin-bottom: 15px;
 }
 
+#produto h2 {
+    display: none;
+}
+
 
 #descricao {
     font-size: 20px;
