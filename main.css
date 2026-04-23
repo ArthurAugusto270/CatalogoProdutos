@@ -1,0 +1,113 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+.cabecalho {
+    background: #05285f;
+    color: white;
+    padding: 15px 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.container-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.logo {
+    width: 300px;
+    height: auto;
+}
+
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+
+#produto article {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+#produto img {
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+
+#descricao {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#preco {
+    font-size: 18px;
+    font-weight: bold;
+    color: #16a34a;
+}
+
+
+#menu {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#menu h2 {
+    margin-bottom: 15px;
+}
+
+
+input[type="button"] {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    margin: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+input[type="button"]:hover {
+    background: #164ce2;
+    transform: scale(1.05);
+}
+
+
+input[value="Limpar"] {
+    background: #dc2626;
+}
+
+input[value="Limpar"]:hover {
+    background: #b91c1c;
+}
+
+
+footer {
+    background: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}

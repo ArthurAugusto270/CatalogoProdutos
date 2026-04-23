@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Catálogo</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+  <header class="cabecalho">
+    <div class="container-header">
+        <img src="logoFundoTransparente.png" alt="Logo da loja" class="logo">
+        <h1>Catálogo de Produtos Eletrônicos</h1>
+    </div>
+</header>
+
+    <main>
+
+        <section id="produto">
+            <article>
+                <img src="eletronicos.jpg" alt="Imagem de eletrônicos" id="imagem" width="300">
+
+                <h2 id="descricao">Escolha um produto...</h2>
+                <p id="preco"></p>
+            </article>
+        </section>
+
+        <section id="menu">
+            <h2>Escolha um produto abaixo:</h2>
+
+            <form>
+                <input type="button" value="Alexa" onclick="mostrarProduto('alexa')">
+                <input type="button" value="Computador" onclick="mostrarProduto('computador')">
+                <input type="button" value="Tablet" onclick="mostrarProduto('tablet')">
+                <input type="button" value="Notebook" onclick="mostrarProduto('notebook')">
+                <input type="button" value="Microfone" onclick="mostrarProduto('microfone')">
+                <input type="button" value="Steamdeck" onclick="mostrarProduto('steamdeck')">
+                <input type="button" value="Smartphone" onclick="mostrarProduto('smartphone')">
+                <input type="button" value="Impressora" onclick="mostrarProduto('impressora')">
+                <br><br>
+                <input type="button" value="Limpar" onclick="resetar()">
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Arthur Eletronicos LTDA - O melhor em eletrônicos</p>
+    </footer>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
